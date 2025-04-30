@@ -1,9 +1,10 @@
 ﻿{
-  "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "Trainacc": {
+    "http": {
       "commandName": "Project",
-      "applicationUrl": "http://localhost:5000;https://localhost:5001",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
